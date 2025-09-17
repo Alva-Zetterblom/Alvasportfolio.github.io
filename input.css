@@ -1,0 +1,41 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/sergio-trendy');
+
+@import "tailwindcss";
+
+@layer base {
+    :root {
+      --color-blue: #067797;
+      --color-beige: #F2DECA;
+      --color-brown: #987A6A;
+      --color-marine: #002F9A;
+
+    }
+  
+    /* Lägg till fonten för rubriker */
+    h1, h2 {
+      font-family: 'Josefin Sans', serif;
+      font-family: 'Sergio Trendy', sans-serif;
+      
+    }
+  
+    /* Lägg till fonten som font-serif globalt */
+    body {
+      @apply font-serif;
+      font-family: 'Josefin Sans', serif;
+      
+     
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+      
+  }
+
+
+  
+
+  
+  
